@@ -1,5 +1,5 @@
 {% set name = "typhos" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 53bbfb271b7209f4d712facae58c9c4c9043d2f62b3d35f742851f1fc578cfcd
+  sha256: c3de0ec7a31f5bb2fae01cb9e373d19ea1b113988ceb10eac9c13b3f8b70a826
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - typhos = typhos.cli:main
@@ -46,7 +46,7 @@ about:
   home: https://github.com/pcdshub/typhos
   doc_url: https://pcdshub.github.io/typhos
   dev_url: https://github.com/pcdshub/typhos
-  summary: 'Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices'
+  summary: Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices
   license: SLAC Open
   license_family: OTHER
   license_file: LICENSE.txt
