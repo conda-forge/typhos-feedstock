@@ -5,7 +5,7 @@ Home: https://github.com/pcdshub/typhos
 
 Package license: SLAC Open
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices
 
