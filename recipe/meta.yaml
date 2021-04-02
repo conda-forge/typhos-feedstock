@@ -1,5 +1,5 @@
 {% set name = "typhos" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 56a002dd9b9f09c78fe5c8482cd9d4ff124cb3b3ef178c6e5ec49063ae811d41
+  sha256: ae2254cf4f4369ea2829ad46c3a075ec072397b6ab55dba808d1924db4b45c81
 
 build:
   number: 0
