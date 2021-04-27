@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 7fed85cff3988170ed17333a1784dd703ff164d0e514a9f62f5b1b14bc9aa7df
+  sha256: b4b31428652733fac44fcf8d370b265c623c71b0f2e54ce4d301597c70fee896
 
 build:
   number: 0
@@ -54,5 +54,4 @@ about:
 extra:
   recipe-maintainers:
     - klauer
-    - hhslepicka
     - zllentz
