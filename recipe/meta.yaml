@@ -10,7 +10,7 @@ source:
   sha256: b4b31428652733fac44fcf8d370b265c623c71b0f2e54ce4d301597c70fee896
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - typhos = typhos.cli:main
@@ -55,3 +55,4 @@ extra:
   recipe-maintainers:
     - klauer
     - zllentz
+    - zrylettc
