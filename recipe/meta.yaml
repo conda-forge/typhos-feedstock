@@ -47,8 +47,8 @@ about:
   doc_url: https://pcdshub.github.io/typhos
   dev_url: https://github.com/pcdshub/typhos
   summary: Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices
-  license: SLAC Open
-  license_family: OTHER
+  license: LicenseRef-BSD-3-Clause-SLAC
+  license_family: BSD
   license_file: LICENSE.txt
 
 extra:
