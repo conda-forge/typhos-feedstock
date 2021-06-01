@@ -3,7 +3,7 @@ About typhos
 
 Home: https://github.com/pcdshub/typhos
 
-Package license: SLAC Open
+Package license: LicenseRef-BSD-3-Clause-SLAC
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/typhos-feedstock/blob/master/LICENSE.txt)
 
@@ -121,4 +121,5 @@ Feedstock Maintainers
 
 * [@klauer](https://github.com/klauer/)
 * [@zllentz](https://github.com/zllentz/)
+* [@zrylettc](https://github.com/zrylettc/)
 
