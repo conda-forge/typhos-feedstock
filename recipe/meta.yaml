@@ -49,7 +49,7 @@ about:
   summary: Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices
   license: LicenseRef-BSD-3-Clause-SLAC
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
