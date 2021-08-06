@@ -1,5 +1,5 @@
 {% set name = "typhos" %}
-{% set version = "1.2.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 09bbaee94441ae9bdd069445f8b55852c7565bf043e46a10aa0b1f394ebbb1c5
+  sha256: 26276a2dcef6101b810d302ae393cd3905a424793736de031f3281faeb7abd95
 
 build:
   number: 0
@@ -21,19 +21,20 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - pyqt >=5
-    - qtpy
     - coloredlogs
+    - entrypoints
     - numpy
     - numpydoc
     - ophyd >=1.5.0
     - pcdsutils
     - pydm
+    - pyqt >=5
     - pyqtgraph
     - qdarkstyle
     - qtawesome
     - qtconsole
-    - timechart
+    - qtpy
+    - timechart >=1.2.4
 
 test:
   imports:
@@ -49,7 +50,7 @@ about:
   summary: Automatic-yet-customizable Graphical User Interface Generation for Ophyd Devices
   license: LicenseRef-BSD-3-Clause-SLAC
   license_family: BSD
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
