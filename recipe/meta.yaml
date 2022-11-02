@@ -10,8 +10,9 @@ source:
   sha256: 89cd5abe968a2a81705c9996bbea40ebd34191c3ce3ea65551af37d7f84658a4
 
 build:
-  number: 1
+  number: 2
   noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - typhos = typhos.cli:main
 
