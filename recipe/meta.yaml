@@ -29,6 +29,7 @@ requirements:
     - numpydoc
     - ophyd >=1.5.0
     - pcdsutils
+    - pyqt =5
     - platformdirs
     - pydm >=1.19.1
     - pyqtgraph
