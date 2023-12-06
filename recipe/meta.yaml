@@ -1,5 +1,5 @@
 {% set name = "typhos" %}
-{% set version = "3.0.0" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pcdshub/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: fc4ed75b11811fed53c0ffbbe46cfeff3522eaa936f1cd868cb964369539818c
+  sha256: 1da297fa06ef64e51f9acfd7b41f45e91639a986119fd148174a73eabfa9c4f4
 
 build:
   number: 0
@@ -60,6 +60,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/pcdsdevices
-    - klauer
-    - tangkong
-    - zllentz
