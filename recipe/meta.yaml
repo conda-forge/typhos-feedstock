@@ -10,7 +10,7 @@ source:
   sha256: bca00d1097195c7eec1b3377be4aec2d2e59cfa77c366e81d20dbbbc01bb9a25
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - coloredlogs
     - entrypoints
     - numpy
@@ -43,6 +43,8 @@ requirements:
     - happi >=1.14.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - typhos
     - typhos.cli
