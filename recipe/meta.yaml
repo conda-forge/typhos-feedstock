@@ -1,5 +1,6 @@
 {% set name = "typhos" %}
 {% set version = "4.1.0" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >={{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - coloredlogs
     - entrypoints
     - numpy
@@ -48,6 +49,8 @@ test:
     - typhos.cli
   commands:
     - typhos --help
+  requires:
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pcdshub/typhos
