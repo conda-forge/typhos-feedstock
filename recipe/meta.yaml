@@ -27,6 +27,7 @@ requirements:
     - python >={{ python_min }}
     - coloredlogs
     - entrypoints
+    - lxml
     - numpy
     - numpydoc
     - ophyd >=1.5.0
